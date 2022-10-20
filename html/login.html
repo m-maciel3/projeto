@@ -5,14 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-utilities.css">
     <title>Login</title>
 </head>
 <body id="corpo">
-  <div id= "fundo" class="container">
-    <form id="formulario" class="form-control">
-    <input type="text" placeholder="Login">
-    <input type="password" name="" id="senha" placeholder="Senha">
+  <form id= "formulario">
+    <div class="alert alert-dark" role="alert">
+      Identifique-se!
+    </div>
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="login" placeholder="Email">
+      <label for="floatingInput">Email</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="senha" placeholder="Senha">
+      <label for="floatingPassword">Senha</label>
+      <input type="submit" value="Entrar" id="btEntrar">
+ 
     </div>
   </form>
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html
