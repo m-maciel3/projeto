@@ -1,0 +1,21 @@
+#corpo {
+    background-color: aliceblue(65, 136, 197);
+    background-image: url("/img/vista-traseira-do-programador-trabalhando-a-noite-toda_1098-18697.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#fundo{
+    background-color: black;
+    margin: 30px;
+    width: 50%;
+    margin-left: 30%;
+}
+
+#formulario {
+    
+    border: none;
+}
+
+
+
