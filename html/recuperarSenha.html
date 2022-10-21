@@ -11,8 +11,18 @@
     <link rel="stylesheet" href="/css/estilo.css">
     <title>Recuperar senha</title>
 </head>
-<body>
-    
+<body id="corpoRecSenha">
+    <form id="formRecSenha" class="container-fluid">
+          <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="informeEmail" placeholder="Informe email"> 
+          <label for="floatingPassword">Informe email</label>
+        </div>
+        <div class="form-floating">
+          <input type="email" class="form-control" id="confirmarEmail" placeholder="Confirmar email">
+          <label for="floatingPassword">Confirmar email</label>
+          </div>
+        <button type="submit" class="btn btn-info" id="btEnviarSenha">Enviar</button>
+      </form>
 
 <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <script src="/node_modules/jquery/dist/jquery.js"></script>
