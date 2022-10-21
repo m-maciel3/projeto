@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-utilities.css">
     <title>Login</title>
 </head>
-<body id="corpo">
-  <form id= "formulario">
-    <div class="alert alert-dark" role="alert">
+<body id="corpoLogin">
+  <form id= "formLogin">
+    <div id="fundoLogin" class="container-fluid">
+      <div class="alert alert-success" role="alert">
       Identifique-se!
     </div>
     <div class="form-floating mb-3">
@@ -22,9 +23,10 @@
     </div>
     <div class="form-floating">
       <input type="password" class="form-control" id="senha" placeholder="Senha">
-      <label for="floatingPassword">Senha</label>
-      <input type="submit" value="Entrar" id="btEntrar">
- 
+      <label for="floatingPassword">Senha</label> 
+      <input type="submit" id="btEntrar" class="btn btn-primary" value="Entrar">
+      <a class="btn btn-link" id="esqueceuSenha" href="recuperarSenha.html" role="button">Esqueceu senha?</a>
+    </div>
     </div>
   </form>
   <script src="/node_modules/jquery/dist/jquery.js"></script>
