@@ -1,35 +1,30 @@
+/*pagina login*/
 #corpoLogin {
     background-color: black;
     background-image: url("/img/vista-traseira-do-programador-trabalhando-a-noite-toda_1098-18697.webp");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#formLogin {
     width: 30%;
     margin: 15%;
     margin-left: 30%;
-    padding: 20px;
-    background-color: antiquewhite;
+    padding: 15px;
 }
 
 #btEntrar{
     margin: 15px;
     width: 28%;
-    background-color: rgb(82, 147, 126);
-    border: none;
     padding: 8px;
     color: rgb(243, 240, 236);
-    margin-left: auto;
+    margin-left: 50px;
     margin-right: auto;
 }
 
 #esqueceuSenha{
     width: 25%;
-    margin: 10px;
-    margin-left: 30%;
-    color: rgb(135, 135, 189);
-
+    margin: 15px;
+    margin-left: 40px;
+    color: rgb(243, 240, 236);
+    border-color: rgb(211, 90, 90);
 }
 
 #login {
@@ -41,9 +36,9 @@
     background-color: lightblue;
     border: none;
 }
-/*pagina login*/
 
 
+/*pagina recuperar senha*/
 
 #corpoRecSenha{
     background-color:aquamarine;
@@ -77,9 +72,9 @@
     padding: 8px;
     margin-top: 30px;
 }
-/*pagina recuperar senha*/
 
 
+/*pagina alterar senha*/
 
 #corpoAltSenha {
     background-color: aquamarine;
@@ -87,25 +82,11 @@
 }
 
 #formAltSenha{
-    width: 30%;
+    width: 35%;
     margin: 15%;
     margin-left: 30%;
-    padding: 20px;
+    padding: 60px;
     background-color: antiquewhite;
-
 }
 
-#bt1 {
-    width: 30%;
-    margin-left: 15%;
-}
-#bt2{
-    width: 30%;
-    margin-left: 15%;
-}
 
-#btEntrar2{
-    width: 60px;
-    margin-left: 55%;
-}
-/*pagina alterar senha*/

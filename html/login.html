@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilo.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-utilities.css">
-    <title>Login</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilo.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-utilities.css">
+  <title>Login</title>
 </head>
+
 <body id="corpoLogin">
-  <form id= "formLogin">
-    <div class="container-fluid">
-      <div class="alert alert-success" role="alert">
+  <div class="container-fluid">
+    <div class="alert alert-success" role="alert">
       Identifique-se!
     </div>
     <div class="form-floating mb-3">
       <input type="email" class="form-control" id="login" placeholder="Email">
       <label for="floatingInput">Email</label>
-  
     </div>
     <div class="form-floating">
       <input type="password" class="form-control" id="senha" placeholder="Senha">
-      <label for="floatingPassword">Senha</label> 
-      <input type="submit" id="btEntrar" class="btn btn-primary" class="container-fluid" value="Entrar">
-      <a class="btn btn-link" class="container-fluid" id="esqueceuSenha" href="recuperarSenha.html" role="button">Esqueceu senha?</a>
+      <label for="floatingPassword">Senha</label>
+      <input type="submit" id="btEntrar" class="btn btn-outline-success" value="Entrar">
+      <a id="esqueceuSenha" class="btn btn-outline-danger btn-sm" href="recuperarSenha.html"
+        role="button">Esqueceu a senha?</a>
     </div>
-    </div>
-  </form>
+  </div>
   <script src="/node_modules/jquery/dist/jquery.js"></script>
   <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html
