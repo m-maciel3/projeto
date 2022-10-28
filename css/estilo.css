@@ -1,12 +1,12 @@
 /*pagina login*/
 #corpoLogin {
     background-color: black;
-    background-image: url("/img/vista-traseira-do-programador-trabalhando-a-noite-toda_1098-18697.webp");
+    background-image: url("/img/faca-login-acesso-seguro-verifique-a-identidade-e-o-conceito-de-senha_53876-124066.webp");
     background-repeat: no-repeat;
     background-size: cover;
     width: 30%;
     margin: 15%;
-    margin-left: 30%;
+    margin-left: 33%;
     padding: 15px;
 }
 
@@ -14,7 +14,7 @@
     margin: 15px;
     width: 28%;
     padding: 8px;
-    color: rgb(243, 240, 236);
+    color: green;
     margin-left: 50px;
     margin-right: auto;
 }
@@ -23,16 +23,15 @@
     width: 25%;
     margin: 15px;
     margin-left: 40px;
-    color: rgb(243, 240, 236);
-    border-color: rgb(211, 90, 90);
+    color: crimson;
 }
 
-#login {
+#email{
     background-color: lightblue;
     border: none;
 }
 
-#senha {
+#senha{
     background-color: lightblue;
     border: none;
 }
@@ -42,11 +41,12 @@
 
 #corpoRecSenha{
     background-color:aquamarine;
-    background-image: url();
+    background-image: url("/img/vista-traseira-do-programador-trabalhando-a-noite-toda_1098-18697.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #formRecSenha{
-    background-color: antiquewhite;
     width: 30%;
     margin: 15%;
     margin-left: 30%;
@@ -63,22 +63,23 @@
     background-color: cadetblue;
     border: none;
     padding: 10px;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 #btEnviarSenha{
     width: 25%;
     border: none;
     padding: 8px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 
 /*pagina alterar senha*/
 
 #corpoAltSenha {
-    background-color: aquamarine;
-    background-image: url();
+    background-image: url("/img/maos-trabalhando-na-sobreposicao-grafica-da-rede-do-dispositivo-digital_53876-127753.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #formAltSenha{
@@ -86,7 +87,21 @@
     margin: 15%;
     margin-left: 30%;
     padding: 60px;
-    background-color: antiquewhite;
+}
+
+#novaSenha{
+    border: none;
+    padding: 15px;
+}
+
+#confirmarNovaSenha{
+    border: none;
+    padding: 15px;
+}
+
+#enviar{
+    
+    width: 25%;
 }
 
 /*pagina login*/
