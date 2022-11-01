@@ -2,6 +2,8 @@
   "dependencies": {
     "bootstrap": "^5.2.2",
     "jquery": "^3.6.1",
-    "popper.js": "^1.16.1"
+    "mysql2": "^2.3.3",
+    "popper.js": "^1.16.1",
+    "sequelize": "^6.25.3"
   }
 }
