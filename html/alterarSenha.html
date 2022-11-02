@@ -6,19 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
-  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-grid.css">
-  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-reboot.css">
-  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-utilities.css">
   <link rel="stylesheet" href="/css/estilo.css">
   <title>Alterar senha</title>
 </head>
 
 <body id="corpoAltSenha">
-  <form id="formAltSenha">
-    <div class="container-fluid">
-      <div class="input-group mb-3">
+   <div class="container-fluid">
+      <div class="input-group m-3">
        
-     <span onclick="mostrarOcultarSenha()" class="input-group-text" id="olho">
+     <span onclick="mostrarOcultarSenha()" class="input-group-text" id="olho1">
         <svg id="ocultarSenha" style="display:none"xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye-off"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line>
         </svg>
         
@@ -30,11 +26,11 @@
         </svg>
       </span>
       <input type="text" class="form-control"placeholder="Nova senha" id="novaSenha">
-      
+
     </div> 
     
-    <div class="input-group mb-3">
-        <span onclick="mostrarOcultarNovaSenha()" class="input-group-text" id="olho"> 
+    <div class="input-group m-3">
+        <span onclick="mostrarOcultarNovaSenha()" class="input-group-text" id="olho2"> 
         <svg id="ocultarNovaSenha" style="display:none"xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye-off"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line>
         </svg>
 
@@ -50,7 +46,6 @@
           <input type="submit" class="btn btn-info" id="enviar" value="Enviar">
 
       </div>
-  </form>
   <script src="/js/função.js"></script>
   <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <script src="/node_modules/jquery/dist/jquery.js"></script>
