@@ -1,6 +1,6 @@
 /*pagina login*/
 #corpoLogin {
-    background-color: black;
+    background-color: cadetblue;
     background-image: url("/img/faca-login-acesso-seguro-verifique-a-identidade-e-o-conceito-de-senha_53876-124066.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,21 +12,13 @@
 
 #btEntrar{
     color: green;
-    margin: 10px;
 }
 
 #esqueceuSenha{
     color: crimson;
-    padding: 10px;
-    margin: 8px; 
 }
 
-#email{
-    background-color: lightblue;
-    border: none;
-}
-
-#senha{
+#email, #senha{
     background-color: lightblue;
     border: none;
 }
@@ -34,30 +26,9 @@
 
 /*pagina recuperar senha*/
 
-#corpoRecSenha{
-    background-color:aquamarine;
-    background-image: url("/img/vista-traseira-do-programador-trabalhando-a-noite-toda_1098-18697.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15%;
-}
-
-#informeEmail{
-    background-color: cadetblue;
+#enviarEmail{
+    background-color: darkkhaki;
     border: none;
-}
-
-#confirmarEmail{
-    background-color: cadetblue;
-    border: none;
-}
-
-#btEnviarSenha{
-    margin: auto;
-    margin-top: 10px;
 }
 
 
@@ -72,7 +43,6 @@
     margin-right: auto;
     margin-top: 15%;
 }
-
 
 #novaSenha, #olho1 {
     border: none;
@@ -89,7 +59,7 @@
     margin-left: 15px;
 }
 
-/*pagina login*/
+/*pagina menu*/
 
 #corpoMenu{
     background-color: bisque;
