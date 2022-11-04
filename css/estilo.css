@@ -7,7 +7,7 @@
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 13%;
+    margin-top: 15%;
 }
 
 #btEntrar{
@@ -18,19 +18,28 @@
     color: crimson;
 }
 
+#btAcesso{
+    color: blue;
+}
+
 #email, #senha{
     background-color: lightblue;
     border: none;
 }
 
-
-/*pagina recuperar senha*/
-
-#enviarEmail{
-    background-color: darkkhaki;
+#primeiroAcesso{
+    background-color: rgb(226, 221, 153);
+    border: none;
+}
+#recSenha{
+    background-color: bisque;
     border: none;
 }
 
+#modal{
+    position: fixed;
+    width: 100%;
+}
 
 /*pagina alterar senha*/
 
@@ -63,6 +72,9 @@
 
 #corpoMenu{
     background-color: bisque;
+}
+#cards{
+    background-color: transparent;
 }
 
 

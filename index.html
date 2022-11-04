@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,9 +14,6 @@
 </head>
 <body id="corpoLogin">
   <div class="container-fluid">
-    <div class="alert alert-success" role="alert">
-      Identifique-se!
-    </div>
     <div class="mb-3 row">
       <div class="input-group-text" id="email">
       <svg xmlns="http://www.w3.org/2000/svg"  width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
@@ -33,43 +29,110 @@
       <input type="password" class="form-control" id="senha" placeholder="Senha">
     </div>
     </div>
-     <button id="btEntrar"class="btn btn-outline-success"> 
+
+    <div class="row">
+      <button class="btn btn-outline-success">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-in"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path><polyline points="10 17 15 12 10 7"></polyline><line x1="15" y1="12" x2="3" y2="12"></line></svg>
       Entrar
       </button>
+      </div>
 
-<button id="esqueceuSenha" class="btn btn-outline-danger"  data-bs-toggle="modal" data-bs-target="#exampleModal">
-   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
-       <a id="esqueceuSenha" href="">Esqueceu a senha?</a>
-       </button>
-
+      <div class="row row-cols-2" style="margin-top: 10px;">
+  <button id="btAcesso" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+  Primeiro Acesso
+  </button>
+         
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Recuperar senha</h1>
+      <div class="modal-header" style="background-color: bisque;">
+        <h1 class="modal-title fs-5" id="exampleModalLabel" style="color:coral ;">Primeiro Acesso</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style="background-color: bisque;">
 
         <div class="mb-3 row">
-          <div class="input-group-text" id="enviarEmail">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-          <input type="email" class="form-control" id="enviarEmail" placeholder="Informe email"> 
+          <div class="input-group-text" id="primeiroAcesso">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          <input type="text" class="form-control" id="primeiroAcesso" placeholder="Nome"> 
         </div>
         </div>
 
         <div class="mb-3 row">
-          <div class="input-group-text" id="enviarEmail">
+          <div class="input-group-text" id="primeiroAcesso">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-          <input type="email" class="form-control" id="enviarEmail" placeholder="Confirmar email">
+          <input type="email" class="form-control" id="primeiroAcesso" placeholder="Email"> 
+        </div>
+        </div>
+
+        <div class="mb-3 row">
+          <div class="input-group-text" id="primeiroAcesso">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-at-sign"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>
+
+          <input type="text" class="form-control" id="primeiroAcesso" placeholder="Login">
+          
+        </div>
+        </div>
+
+        <div class="mb-3 row">
+          <div class="input-group-text" id="primeiroAcesso">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          <input type="password" class="form-control" id="primeiroAcesso" placeholder="Senha"> 
+        </div>
+        </div>
+
+        <div class="mb-3 row">
+          <div class="input-group-text" id="primeiroAcesso">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          <input type="password" class="form-control" id="primeiroAcesso" placeholder="Repita senha">
           </div>
       </div>
 
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">Enviar</button>
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-warning">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+ </div>
+
+  <button id="esqueceuSenha" class="btn btn-outline-danger"  data-bs-toggle="modal" data-bs-target="#modal2">
+   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-key"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"></path></svg>
+       Esqueceu a senha?
+       </button>
+      </div>
+     
+
+<!-- Modal -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:rgb(248, 206, 192);">
+        <h1 class="modal-title fs-5" id="exampleModalLabel" style="color:rgb(238, 56, 93);">Recuperar Senha</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="background-color:rgb(250, 217, 206);">
+
+        <div class="mb-3 row">
+          <div class="input-group-text" id="recSenha">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <input type="email" class="form-control" id="recSenha" placeholder="Informe email"> 
+        </div>
+        </div>
+
+        <div class="mb-3 row">
+          <div class="input-group-text" id="recSenha">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <input type="email" class="form-control" id="recSenha" placeholder="Confirmar email">
+          </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-danger">Enviar</button>
       </div>
     </div>
   </div>
