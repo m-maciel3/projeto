@@ -72,10 +72,15 @@
 /*pagina menu*/
 
 #corpoMenu{
-    background-color: bisque;
+    background-color: thistle;
 }
-#cards{
-    background-color: transparent;
+
+#card{
+    width: fit-content;
+    margin: 8px;
+    background-color: beige;
+    
+    
 }
 
 #bt{
