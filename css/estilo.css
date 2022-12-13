@@ -16,10 +16,12 @@
 
 #esqueceuSenha{
     color: crimson;
+    border-radius: 500px;
 }
 
 #btAcesso{
     color: blue;
+    border-radius: 500px;
 }
 
 #email, #senha{
